@@ -1,40 +1,39 @@
-/* Estilos para el bloque de accesibilidad */
+/* Block */
 .accessibility-options {
-  position: fixed; /* Fija el bloque en la pantalla */
-  top: 50%;        /* Centra verticalmente */
-  right: 20px;     /* Ubica el bloque en el costado derecho */
-  transform: translateY(-50%); /* Ajusta el centrado exacto */
-  background-color: #fff; /* Fondo blanco para mejor visibilidad */
-  border: 1px solid #ccc; /* Borde gris */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 10px; /* Espacio interno */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de profundidad */
-  z-index: 9999; /* Asegura que esté sobre otros elementos */
+  position: fixed; 
+  top: 50%;        
+  right: 20px;     
+  transform: translateY(-50%); 
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  padding: 10px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  z-index: 9999; 
 }
 
-/* Estilos para los botones */
+/* Buttons */
 .accessibility-btn {
-  display: block;  /* Hace que los botones estén en línea vertical */
-  margin: 5px 0;  /* Espacio entre los botones */
-  padding: 8px 12px; /* Espaciado interno de los botones */
-  font-size: 16px; /* Tamaño de fuente */
-  background-color: #007bff; /* Color de fondo del botón */
-  color: #fff; /* Color del texto del botón */
-  border: none; /* Sin borde */
-  border-radius: 5px; /* Bordes redondeados del botón */
-  cursor: pointer; /* Cambia el cursor a mano al pasar el ratón */
-  text-align: center; /* Centrar texto dentro del botón */
-  width: 100%; /* Ajusta el ancho de los botones */
-  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+  display: block;  
+  margin: 5px 0;  
+  padding: 8px 12px; 
+  font-size: 16px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-align: center; 
+  width: 100%; 
+  transition: background-color 0.3s; 
 }
 
-/* Cambia el color del botón cuando pasas el cursor por encima */
 .accessibility-btn:hover {
-  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  background-color: #0056b3; 
 }
 
-/* Estilos para el modo de alto contraste */
+/* High contrast mode */
 html.high-contrast {
-  background: #000; /* Fondo negro */
-  filter: invert(1); /* Inversión de colores */
+  background: #000; 
+  filter: invert(1); 
 }
