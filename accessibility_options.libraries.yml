@@ -1,0 +1,9 @@
+functions:
+  version: 1.x
+  css:
+    theme:
+      css/accessibility_options.css: {}
+  js:
+    js/accessibility_options.js: {}
+  dependencies:
+    - core/jquery

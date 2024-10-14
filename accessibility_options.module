@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function accessibility_options_theme() {
+  return [
+    'accessibility_options_block' => [
+      'variables' => [],
+      'template' => 'accessibility-options-block',
+    ],
+  ];
+}

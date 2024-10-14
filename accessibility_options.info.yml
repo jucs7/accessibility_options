@@ -1,0 +1,9 @@
+name: 'Accessibility Options'
+type: module
+description: 'This module adds a block with accessibility options such as changing font size and high contrast mode.'
+core_version_requirement: ^8 || ^9 || ^10 || ^11
+package: Custom
+dependencies: []
+version: 1.0.0
+libraries:
+  - accessibility_options/functions
